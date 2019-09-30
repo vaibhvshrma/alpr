@@ -2,7 +2,6 @@ from skimage import measure, exposure
 from skimage.measure import regionprops
 from skimage.io import imread
 from skimage.filters import roberts, threshold_otsu
-from scipy import ndimage
 import random
 import datetime
 import imutils
